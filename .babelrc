@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "include": [
+          "transform-es2015-spread",
+          "es7.object.entries"
+        ],
+        "useBuiltIns": true
+      }
+    ],
+    "stage-1"
+  ]
+}

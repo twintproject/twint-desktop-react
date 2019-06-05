@@ -1,0 +1,81 @@
+h2 {
+  text-align: center;
+}
+#barChart {
+  width: 700px;
+  height: 100px;
+}
+#radarChart {
+  padding-top: 20px;
+  width: 450px;
+  height: 300px;
+}
+#pieChart {
+  width: 450px;
+  height: 300px;
+}
+#LineChart {
+  width: 700px;
+  height: 200px;
+}
+.container {
+  display: flex;
+}
+.big-container {
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+}
+#menu {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #444444;
+  height: 100%;
+  width: 180px;
+}
+#special:hover {
+  color: deepskyblue;
+  transition: 0.3s;
+}
+#connector:hover {
+  color: rgb(79, 243, 161);
+  transition: 0.3s;
+}
+#supporter:hover {
+  color: red;
+  transition: 0.3s;
+}
+#cTemplate:hover {
+  color: orange;
+  transition: 0.3s;
+}
+@keyframes colorchange {
+  75% {
+    background: rgb(89, 238, 69);
+  }
+}
+.icon-bar {
+  width: 50px;
+  background-color: #555;
+  height: 100%;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #0074d9;
+}
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  background-color: #0074d9;
+}

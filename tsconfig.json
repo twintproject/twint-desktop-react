@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "pretty": true,
+    "newLine": "LF",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "dist",
+    "js/*.js",
+    "maps/*.js"
+  ]
+}
