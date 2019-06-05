@@ -1,3 +1,6 @@
+# Disclaimer
+This is a POC, better use something like Kibana which is faster and better.
+
 ### Install node modules
 `npm install .`
 
@@ -15,11 +18,6 @@ Port: `9200` or user defined one.
 Opens a new window, fill field (only one value for field).
 
 Click on `Search`.
-
-### Templates
-Only `earthquake` is available, others are not handled, could cause errors, not tested.
-
-Earthquake template loads tweets of "myearthquakeapp" and "lastQuake".
 
 ### Dump Data
 Don't click on it, deprecated and only for testing.
