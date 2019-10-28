@@ -34,7 +34,7 @@
     "react-wordcloud": "git+https://github.com/chrisrzhou/react-wordcloud.git",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "sequelize": "^4.41.2",
+    "sequelize": "^5.15.1",
     "sqlite3": "^4.0.4",
     "wordcloud": "^1.1.0"
   },
