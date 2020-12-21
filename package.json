@@ -23,7 +23,7 @@
     "elasticsearch": "^15.1.1",
     "heap": "^0.2.6",
     "leaflet": "^1.3.4",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "react": "^16.6.1",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.6.1",
