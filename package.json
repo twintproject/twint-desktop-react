@@ -51,7 +51,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^1.0.1",
-    "electron": "^7.2.4",
+    "electron": "^15.5.5",
     "electron-builder": "^20.36.2",
     "file-loader": "^2.0.0",
     "fs": "0.0.1-security",
